@@ -1,0 +1,65 @@
+Cryptocurrency Web Scraper
+
+Description
+
+This Python program fetches cryptocurrency market data from Yahoo Finance, extracts key details, and saves the data in XML, JSON, and an SQLite database. It provides a structured way to store and analyze market trends.
+
+Features
+
+Scrapes cryptocurrency data from Yahoo Finance.
+
+Saves data in XML format.
+
+Saves data in JSON format.
+
+Stores the retrieved data in a SQLite database.
+
+Handles errors and ensures data consistency.
+
+Files
+
+yahoo_crypto.py (Main script)
+
+crypto_data.xml (Output XML file)
+
+crypto_data.json (Output JSON file)
+
+crypto_data.db (SQLite database storing scraped data)
+
+How to Run
+
+Prerequisites
+
+Ensure you have Python installed on your system.
+Install required dependencies using:
+
+pip install requests beautifulsoup4 sqlite3
+
+Execution
+
+Run the following command in the terminal:
+
+python yahoo_crypto.py
+
+Example Output
+
+Data is extracted from Yahoo Finance and saved in structured formats (XML, JSON, and SQLite).
+
+Future Enhancements
+
+Integrate real-time API updates.
+
+Add support for multiple cryptocurrencies.
+
+Enhance error handling and logging.
+
+Implement a web interface for data visualization.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+
+For any issues or improvements, feel free to open a GitHub issue or contribute to the project!
+
