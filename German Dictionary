@@ -1,0 +1,54 @@
+Dictionary Translator (English to German)
+
+Description
+
+This Python program allows users to input an English word and get its German translation using a predefined dictionary. It serves as a simple translation tool for quick word lookups.
+
+Features
+
+Accepts an English word as input.
+
+Searches for its German translation in a dictionary.
+
+Displays relevant translated words.
+
+Ensures proper input validation.
+
+Files
+
+german_dictionary.py (Main script)
+
+How to Run
+
+Prerequisites
+
+Ensure you have Python installed on your system.
+
+Execution
+
+Run the following command in the terminal:
+
+python german_dictionary.py
+
+Example Input & Output
+
+Input: hello
+Output: Translations of 'hello': German: hallo
+
+Future Enhancements
+
+Expand the dictionary to include more words.
+
+Support additional languages.
+
+Add an API integration for real-time translations.
+
+Implement a GUI for better user experience.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+
+For any issues or improvements, feel free to open a GitHub issue or contribute to the project!
