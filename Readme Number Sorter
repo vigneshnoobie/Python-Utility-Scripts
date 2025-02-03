@@ -1,0 +1,67 @@
+Number Sorter (Prime, Odd, Even)
+
+Description
+
+This Python program accepts a range of integers from the user, sorts them into three different groups (odd, even, and prime), and stores them in separate text files. The program also ensures that only valid integer inputs are accepted.
+
+Features
+
+Accepts an integer range as input (e.g., 101-500)
+
+Classifies numbers into:
+
+Odd numbers (saved in File_Odd.txt)
+
+Even numbers (saved in File_Even.txt)
+
+Prime numbers (saved in File_Prime.txt)
+
+Handles invalid inputs gracefully
+
+Displays the contents of the files after processing
+
+Files
+
+Prime,odd,even.py (Main script)
+
+File_Odd.txt (Stores odd numbers)
+
+File_Even.txt (Stores even numbers)
+
+File_Prime.txt (Stores prime numbers)
+
+How to Run
+
+Prerequisites
+
+Ensure you have Python installed on your system.
+
+Execution
+
+Run the following command in the terminal:
+
+python Prime,odd,even.py
+
+Example Input & Output
+
+Input: 10-30
+File_Odd.txt: 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
+File_Even.txt: 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30
+File_Prime.txt: 11, 13, 17, 19, 23, 29
+
+Future Enhancements
+
+Implement a GUI for easy user interaction.
+
+Allow exporting data to CSV format.
+
+Add an option for different classification methods.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+
+For any issues or improvements, feel free to open a GitHub issue or contribute to the project!
+
